@@ -3,7 +3,7 @@ import React from "react";
 
 const ProductCard = (props) => {
   return (
-    <div className="text-center space-y-2">
+    <div className="text-center space-y-2 ">
       <div className="w-[250px] h-[250px]">
         <Image
           className="object-contain w-full h-full"

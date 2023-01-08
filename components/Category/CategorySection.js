@@ -1,9 +1,9 @@
-import React from 'react';
+import React from "react";
 
 const CategorySection = () => {
   return (
-    <div className="flex h-[50vh] items-center text-white flex-wrap">
-      <div className="w-full h-full p-2 px-6 bg-cover lg:flex-1 bg-women-section">
+    <div className="flex h-full lg:h-[50vh] items-center text-white flex-wrap ">
+      <div className="py-28 lg:py-0 w-full h-full p-2 px-6 bg-cover lg:flex-1 bg-women-section ">
         <div className="flex flex-col items-center justify-center h-full space-y-2 lg:items-end ">
           <h2 className="lg:text-4xl">Womens</h2>
           <h2 className="lg:text-4xl">Section</h2>
@@ -13,7 +13,7 @@ const CategorySection = () => {
           </button>
         </div>
       </div>
-      <div className="w-full h-full p-2 px-6 bg-cover lg:flex-1 bg-men-section">
+      <div className=" py-28 lg:py-0 w-full h-full p-2 px-6 bg-cover lg:flex-1 bg-men-section ">
         <div className="flex flex-col items-center justify-center h-full space-y-2 lg:items-start ">
           <h2 className="lg:text-4xl">Mens</h2>
           <h2 className="lg:text-4xl">Section</h2>
