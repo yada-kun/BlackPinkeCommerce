@@ -2,6 +2,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import Banner from "../components/Banner/Banner";
+import Sale from "../components/Sale/Sale";
 
 //fonts
 
@@ -20,6 +21,7 @@ export default function Home() {
       {/* Banner */}
       <section>
         <Banner />
+        <Sale />
       </section>
     </>
   );
