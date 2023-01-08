@@ -1,5 +1,5 @@
 import React from "react";
-import HeaderNav from "./HeaderNav";
+import HeaderNav from "./Header/HeaderNav";
 
 const Layout = (props) => {
   return (

@@ -13,18 +13,18 @@ const HeaderNav = () => {
   };
 
   return (
-    <div className="w-full h-20 flex items-center justify-evenly">
+    <div className=" w-full h-20 flex items-center justify-evenly">
       <div>
-        <h1>
+        <h1 className="text-4xl">
           SH<span className="text-pink-400">UPLIFT</span>ER
         </h1>
       </div>
       <div>
-        <ul className=" hidden lg:flex uppercase font-bold space-x-5 items-center">
+        <ul className=" hidden lg:flex pr-36 uppercase font-bold space-x-10 items-center text-[20px]">
           <li className=" hover:text-pink-500 hover:scale-110 ">Home</li>
-          <li className=" hover:text-pink-500 ">About Us</li>
-          <li className=" hover:text-pink-500 ">Shop</li>
-          <li className=" hover:text-pink-500 ">Contact</li>
+          <li className=" hover:text-pink-500 hover:scale-110 ">About Us</li>
+          <li className=" hover:text-pink-500 hover:scale-110 ">Shop</li>
+          <li className=" hover:text-pink-500 hover:scale-110">Contact</li>
         </ul>
       </div>
 
