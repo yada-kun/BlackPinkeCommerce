@@ -1,19 +1,13 @@
 //next import
-<<<<<<< Updated upstream
 import Head from "next/head";
 import Image from "next/image";
-import Banner from "../components/Banner/Banner";
-import Sale from "../components/Sale/Sale";
-=======
-import Head from 'next/head';
-import Image from 'next/image';
->>>>>>> Stashed changes
 
 //fonts
 
 //components
-import Banner from '../components/Banner/Banner';
-import CategorySection from '../components/Category/CategorySection';
+import Banner from "../components/Banner/Banner";
+import CategorySection from "../components/Category/CategorySection";
+import Sale from "../components/Sale/Sale";
 
 export default function Home() {
   return (
@@ -28,11 +22,8 @@ export default function Home() {
       {/* Banner */}
       <section>
         <Banner />
-<<<<<<< Updated upstream
-        <Sale />
-=======
         <CategorySection />
->>>>>>> Stashed changes
+        <Sale />
       </section>
     </>
   );
