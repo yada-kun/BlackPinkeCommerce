@@ -1,5 +1,3 @@
-import React from "react";
-
 //components
 import ProductCard from "../ProductCard";
 import { ProductLibrary } from "../../library/Media-ProductCard";

@@ -9,7 +9,8 @@ import Banner from "../components/Banner/Banner";
 import CategorySection from "../components/Category/CategorySection";
 import Sale from "../components/Sale/Sale";
 
-export default function Home() {
+export default function Home(props) {
+  const test = (file) => {};
   return (
     <>
       <Head>

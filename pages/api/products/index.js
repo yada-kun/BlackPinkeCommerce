@@ -1,5 +1,6 @@
-import ConnectDatabase from "../../library/database/connection";
-import Products from "../../models/ProductSchema";
+import ProductCard from "../../../components/ProductCard";
+import ConnectDatabase from "../../../library/database/connection";
+import Products from "../../../models/ProductSchema";
 
 export default async function handler(req, res, next) {
   ConnectDatabase().catch((error) =>
@@ -7,7 +8,9 @@ export default async function handler(req, res, next) {
   );
 
   if (req.method === "GET") {
-    res.json({ message: "hello" });
+    const reponse = await Products.find();
+
+    res.status(201).json({ message: "Success", data: reponse });
   }
 
   if (req.method === "POST") {
