@@ -1,5 +1,5 @@
+import Link from "next/link";
 import React, { useState } from "react";
-import Image from "next/image";
 
 import { AiOutlineMenu, AiOutlineShoppingCart } from "react-icons/ai";
 
@@ -21,10 +21,21 @@ const HeaderNav = () => {
       </div>
       <div>
         <ul className=" hidden lg:flex pr-36 uppercase font-bold space-x-10 items-center text-[20px]">
-          <li className=" hover:text-pink-500 hover:scale-110 ">Home</li>
-          <li className=" hover:text-pink-500 hover:scale-110 ">About Us</li>
-          <li className=" hover:text-pink-500 hover:scale-110 ">Shop</li>
-          <li className=" hover:text-pink-500 hover:scale-110">Contact</li>
+          <Link href="/">
+            <li className=" hover:text-pink-500 hover:scale-110 ">Home</li>
+          </Link>
+
+          <Link href="/about">
+            <li className=" hover:text-pink-500 hover:scale-110 ">About Us</li>
+          </Link>
+
+          <Link href="/shop">
+            <li className=" hover:text-pink-500 hover:scale-110 ">Shop</li>
+          </Link>
+
+          <Link href="/contact">
+            <li className=" hover:text-pink-500 hover:scale-110">Contact</li>
+          </Link>
         </ul>
       </div>
 
